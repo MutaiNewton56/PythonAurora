@@ -1,0 +1,30 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "aurora-sql",
+      "database": "${workspaceFolder:SQL}/sqlite.db"
+    },
+    {
+      "previewLimit": 50,
+      "server": "aws-0-ap-south-1.pooler.supabase.com",
+      "driver": "PostgreSQL",
+      "name": "auroa-postgres",
+      "database": "postgres",
+      "username": "postgres.erojatpkqtqexubknucv",
+      "password": "RdXgnaNSmsU6vZeL",
+      "connectString": "postgres://postgres.erojatpkqtqexubknucv:RdXgnaNSmsU6vZeL@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "local-postgres",
+      "database": "postgres",
+      "username": "postgres",
+      "password": "postgres1234"
+    }
+  ]
+}
