@@ -1,12 +1,12 @@
 -- students. name,email,mark,is_married
 
--- -- CREATE TABLE student(
--- --     id BIGSERIAL PRIMARY KEY,
--- --     name VARCHAR(50),
--- --     email VARCHAR(50),
--- --     mark INTEGER,
--- --     is_married BOOLEAN
--- -- )
+CREATE TABLE student(
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50),
+    mark INTEGER,
+    is_married BOOLEAN
+)
 
 -- INSERT INTO <table_name> (columnst) VALUES ()
 

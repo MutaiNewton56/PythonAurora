@@ -16,7 +16,28 @@
 -- FROM student
 -- WHERE name='Samuel'
 
-SELECT * 
+-- SELECT * 
+-- FROM student
+-- WHERE mark>40 and mark<60
+
+
+-- Aggregrate queries
+
+-- make a qury to get the total number
+-- of students who have below 40
+
+-- SELECT COUNT(*)
+-- FROM student
+-- WHERE mark>50
+
+-- SUM
+
+
+SELECT SUM(mark)
 FROM student
-WHERE mark>40
-AND name='Benedict'
+
+-- AVG 
+
+-- MAX
+
+-- MIN
