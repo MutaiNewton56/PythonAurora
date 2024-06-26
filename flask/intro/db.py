@@ -10,6 +10,8 @@ db_config={
     'port':'5432'
 }
 
+"postgresql://postgres.erojatpkqtqexubknucv:[YOUR-PASSWORD]@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
+
 class DB():
     def __init__(self) -> None:
         try:
